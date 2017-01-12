@@ -17,86 +17,112 @@ and open the template in the editor.
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     </head>
     <body>
-        <header class="row">
-            <nav class="navbar navbar-dark scrolling-navbar primary-color">
-                <a class="navbar-brand h1">Studycom</a>
-                <ul class="nav navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link">Contacts <span class="sr-only">(current)</span></a>
+        <nav class="navbar navbar-dark scrolling-navbar primary-color">
+            <a class="navbar-brand h1">Jim Sobieski</a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link">Contacts <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Topics</a>
+                </li>
+            </ul>
+            <p class="title">STUDYCOM</p>
+            <button class="primary-color hidden-md-up side-bar-button">Side bar</button>
+            <form class="form-inline">
+                <input class="form-control" type="text" placeholder="Search">
+                <button type="submit" class="btn waves-effect default-color-dark">Rechercher</button>
+            </form>
+
+        </nav>
+
+        <main class="row main-container default-color">
+            <div class="side-bar col-sm-2 hidden-sm-down secondary-color">
+                <h2 class="h2-responsive">topics</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="tag online label-pill float-xs-right">14</span>Gestion Financière
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Topics</a>
+                    <li class="list-group-item">
+                        <span class="tag online label-pill float-xs-right">3</span>Agile
                     </li>
-                    <li class="nav-item btn-group">
-                        <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <a class="dropdown-item">Action</a>
-                            <a class="dropdown-item">Another action</a>
-                            <a class="dropdown-item">Something else here</a>
-                        </div>
+                    <li class="list-group-item">
+                        <span class="tag offline label-pill float-xs-right">5</span>Statistiques
+                    </li>
+                    <li class="list-group-item">
+                        <span class="tag offline label-pill float-xs-right">2</span>Anglais
                     </li>
                 </ul>
-                <form class="form-inline">
-                    <input class="form-control" type="text" placeholder="Search">
-                    <button type="submit" class="btn waves-effect default-color">Rechercher</button>
-                </form>
-            </nav>
-        </header>
-
-        <main>
-            <div class="row main-container default-color">
-                <div class="side-bar col-sm-3 hidden-sm-down secondary-color">
-                    <h2 class="h2-responsive">topics</h2>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <span class="tag online label-pill float-xs-right">14</span>Gestion Financière
-                        </li>
-                        <li class="list-group-item">
-                            <span class="tag online label-pill float-xs-right">3</span>Agile
-                        </li>
-                        <li class="list-group-item">
-                            <span class="tag offline label-pill float-xs-right">5</span>Statistiques
-                        </li>
-                        <li class="list-group-item">
-                            <span class="tag offline label-pill float-xs-right">2</span>Anglais
-                        </li>
-                    </ul>
-                    <h2 class="h2-responsive">contacts</h2>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <span class="tag online label-pill float-xs-right">7</span>Saher El Goff
-                        </li>
-                        <li class="list-group-item">
-                            <span class="tag online label-pill float-xs-right">1</span>Benoit Vachon
-                        </li>
-                        <li class="list-group-item">
-                            <span class="tag offline label-pill float-xs-right">2</span>Raphael Benedito
-                        </li>
-                        <li class="list-group-item"><span class="tag offline label-pill float-xs-right">5</span>CFA
-                        </li>
-                    </ul>
+                <h2 class="h2-responsive">contacts</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="tag online label-pill float-xs-right">7</span>Saher El Goff
+                    </li>
+                    <li class="list-group-item">
+                        <span class="tag online label-pill float-xs-right">1</span>Benoit Vachon
+                    </li>
+                    <li class="list-group-item">
+                        <span class="tag offline label-pill float-xs-right">2</span>Raphael Benedito
+                    </li>
+                    <li class="list-group-item"><span class="tag offline label-pill float-xs-right">5</span>CFA
+                    </li>
+                </ul>
+            </div>
+            <div class="central-container col-sm-10 col-xs-12">
+                <div class="row topic-infos default-color">
+                    Methode agile
                 </div>
-                <div class="central-container col-sm-9">
-                    <div class="topic-feed">
-                        <div class="card message send">
-                            message 1
-                        </div>
-                        <div class="card message receive">
-                            message 2
-                        </div>
-                        <div class="card message send">
-                            message 3
-                        </div>
+                <div class="topic-feed">
+                    <div class="card message send">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat
+                    </div>                      
+                    <div class="card message receive">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                        quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
                     </div>
-                    <div class="respond-container">
-                            <label for="comment">Poster un message:</label>
-                            <textarea></textarea>
-                            <button type="submit" class="btn waves-effect">Send</button>
+                    <div class="card message send">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat
                     </div>
+                    <div class="card message receive">
+                        Quis autem vel eum iure reprehenderit qui in ea voluptate
+                        velit esse quam nihil molestiae consequatur, vel illum qui
+                        dolorem eum fugiat quo voluptas nulla pariatur
+                    </div>
+                    <div class="card message receive">
+                       Excepteur sint occaecat cupidatat non proident, sunt in 
+                       culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                    <div class="card message send">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat
+                    </div>
+                    <div class="card message send">
+                        Quis autem vel eum iure reprehenderit qui in ea voluptate
+                        velit esse quam nihil molestiae consequatur, vel illum qui
+                        dolorem eum fugiat quo voluptas nulla pariatur
+                    </div>
+                    <div class="card message receive">
+                        Excepteur sint occaecat cupidatat non proident, sunt in 
+                        culpa qui officia deserunt mollit anim id est laborum
+                    </div>
+                </div>
+                <div class="respond-container">
+                    <label for="comment">Poster un message:</label>
+                    <textarea></textarea>
+                    <button type="button" class="btn btn-primary primary-color">Send</button>
+
                 </div>
             </div>
 
         </main>
-
     </body>
 </html>
